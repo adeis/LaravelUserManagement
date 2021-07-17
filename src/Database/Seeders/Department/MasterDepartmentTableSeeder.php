@@ -1,9 +1,9 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Seeders\Department;
+namespace Mekaeil\LaravelUserManagement\Database\Seeders\Department;
 
-use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Seeder;
 use Mekaeil\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
 
 class MasterDepartmentTableSeeder extends Seeder
@@ -35,40 +35,36 @@ class MasterDepartmentTableSeeder extends Seeder
         $this->command->info('=============================================================');
         $this->command->info("\n");
 
-        foreach ($this->getDepartments() as $item)
-        {
+        foreach ($this->getDepartments() as $item) {
             $parent = null;
-            if($item['parent'] != null)
-            {
+            if ($item['parent'] != null) {
                 $parent = $this->departmentRepository->findBy([
-                    'title'         => $item['title'],
+                    'title' => $item['title'],
                 ])->id;
             }
 
             $findDepartment = $this->departmentRepository->findBy([
-                'title'         => $item['title'],
-                'parent_id'     => $parent
+                'title' => $item['title'],
+                'parent_id' => $parent,
             ]);
 
-            if ($findDepartment)
-            {
-                $this->command->info('THIS DEPARTMENT << ' . $item['title'] . '] >> EXISTED! UPDATING DATA ...');
+            if ($findDepartment) {
+                $this->command->info('THIS DEPARTMENT << '.$item['title'].'] >> EXISTED! UPDATING DATA ...');
 
-                $this->departmentRepository->update($findDepartment->id,[
-                    'title'     => $item['title'],
+                $this->departmentRepository->update($findDepartment->id, [
+                    'title' => $item['title'],
                     'parent_id' => $parent,
                 ]);
 
                 continue;
             }
 
-            $this->command->info('CREATING THIS DEPARTMENT <<' . $item['title'] . '] >> ...');
+            $this->command->info('CREATING THIS DEPARTMENT <<'.$item['title'].'] >> ...');
 
             $this->departmentRepository->store([
-                'title'     => $item['title'],
+                'title' => $item['title'],
                 'parent_id' => $parent,
             ]);
-
         }
 
         $this->command->info("\n");
@@ -76,7 +72,5 @@ class MasterDepartmentTableSeeder extends Seeder
         $this->command->info('              INSERTING DEPARTMENTS DATA FINALIZED!');
         $this->command->info('=============================================================');
         $this->command->info("\n");
-
     }
-
 }
