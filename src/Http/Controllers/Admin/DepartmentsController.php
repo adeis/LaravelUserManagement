@@ -1,13 +1,13 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Http\Controllers\Admin;
+namespace Adeis\LaravelUserManagement\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\StoreDepartment;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\UpdateDepartment;
+use Adeis\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\StoreDepartment;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\UpdateDepartment;
 
 class DepartmentsController extends Controller
 {

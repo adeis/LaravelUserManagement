@@ -1,11 +1,11 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Repository\Eloquents;
+namespace Adeis\LaravelUserManagement\Repository\Eloquents;
 
 use App\Entities\Permission;
 use App\Entities\Role;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\BaseEloquentRepository;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\BaseEloquentRepository;
+use Adeis\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
 class PermissionRepository extends BaseEloquentRepository implements PermissionRepositoryInterface
 {
     protected $model        = Permission::class;

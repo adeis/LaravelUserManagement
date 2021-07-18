@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\UserManagement\Auth;
 
 use Illuminate\Http\Request;
-use Mekaeil\LaravelUserManagement\Http\Controllers\Auth\AuthController as AuthUserManager;
+use Adeis\LaravelUserManagement\Http\Controllers\Auth\AuthController as AuthUserManager;
 
 class AuthController extends AuthUserManager
 {

@@ -4,7 +4,7 @@ namespace App\Http\Controllers\UserManagement;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mekaeil\LaravelUserManagement\Http\Controllers\Admin\RolesController as RoleUserManager;
+use Adeis\LaravelUserManagement\Http\Controllers\Admin\RolesController as RoleUserManager;
 
 class RolesController extends RoleUserManager
 {

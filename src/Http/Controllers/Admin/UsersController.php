@@ -1,15 +1,15 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Http\Controllers\Admin;
+namespace Adeis\LaravelUserManagement\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\DepartmentRepository;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\StoreUser;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\UpdateUser;
+use Adeis\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\DepartmentRepository;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\StoreUser;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\UpdateUser;
 use App\Entities\User;
 
 class UsersController extends Controller

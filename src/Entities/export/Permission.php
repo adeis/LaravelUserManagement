@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Entities;
-use Mekaeil\LaravelUserManagement\Entities\Permission as UserManagementPermission;
+use Adeis\LaravelUserManagement\Entities\Permission as UserManagementPermission;
 
 class Permission extends UserManagementPermission
 {

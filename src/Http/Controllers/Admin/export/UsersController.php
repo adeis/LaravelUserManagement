@@ -4,7 +4,7 @@ namespace App\Http\Controllers\UserManagement;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mekaeil\LaravelUserManagement\Http\Controllers\Admin\UsersController as UserManager;
+use Adeis\LaravelUserManagement\Http\Controllers\Admin\UsersController as UserManager;
 
 class UsersController extends UserManager
 {

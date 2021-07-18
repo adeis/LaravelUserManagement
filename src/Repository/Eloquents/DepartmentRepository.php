@@ -1,10 +1,10 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Repository\Eloquents;
+namespace Adeis\LaravelUserManagement\Repository\Eloquents;
 
 use App\Entities\Department;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\BaseEloquentRepository;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\BaseEloquentRepository;
+use Adeis\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
 
 class DepartmentRepository extends BaseEloquentRepository implements DepartmentRepositoryInterface
 {

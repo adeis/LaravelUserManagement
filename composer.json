@@ -32,12 +32,12 @@
     ],
     "autoload": {
         "psr-4": {
-          "Mekaeil\\LaravelUserManagement\\": "src"
+          "Adeis\\LaravelUserManagement\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mekaeil\\LaravelUserManagement\\Test\\": "tests"
+            "Adeis\\LaravelUserManagement\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mekaeil\\LaravelUserManagement\\LaravelUserManagementProvider"
+                "Adeis\\LaravelUserManagement\\LaravelUserManagementProvider"
             ]
         }
     }

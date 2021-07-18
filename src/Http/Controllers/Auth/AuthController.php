@@ -1,13 +1,13 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Http\Controllers\Auth;
+namespace Adeis\LaravelUserManagement\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Http\Requests\Auth\UserLogin;
-use Mekaeil\LaravelUserManagement\Http\Requests\Auth\UserRegistration;
+use Adeis\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
+use Adeis\LaravelUserManagement\Http\Requests\Auth\UserLogin;
+use Adeis\LaravelUserManagement\Http\Requests\Auth\UserRegistration;
 use Auth;
 
 class AuthController extends Controller

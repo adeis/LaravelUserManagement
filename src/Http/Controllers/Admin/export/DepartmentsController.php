@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\UserManagement;
 
 use Illuminate\Http\Request;
-use Mekaeil\LaravelUserManagement\Http\Controllers\Admin\DepartmentsController as DepartmentUserManager;
+use Adeis\LaravelUserManagement\Http\Controllers\Admin\DepartmentsController as DepartmentUserManager;
 
 class DepartmentsController extends DepartmentUserManager
 {

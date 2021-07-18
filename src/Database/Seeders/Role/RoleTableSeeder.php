@@ -1,8 +1,8 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Database\Seeders\Role;
+namespace Adeis\LaravelUserManagement\Database\Seeders\Role;
 
-use Mekaeil\LaravelUserManagement\Seeders\Permission\MasterRoleTableSeeder;
+use Adeis\LaravelUserManagement\Seeders\Permission\MasterRoleTableSeeder;
 
 class RoleTableSeeder extends MasterRoleTableSeeder
 {

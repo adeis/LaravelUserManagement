@@ -1,8 +1,8 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Database\Seeders\Department;
+namespace Adeis\LaravelUserManagement\Database\Seeders\Department;
 
-use Mekaeil\LaravelUserManagement\Seeders\Department\MasterDepartmentTableSeeder;
+use Adeis\LaravelUserManagement\Seeders\Department\MasterDepartmentTableSeeder;
 
 class DepartmentTableSeeder extends MasterDepartmentTableSeeder
 {

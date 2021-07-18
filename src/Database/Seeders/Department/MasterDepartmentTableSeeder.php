@@ -1,10 +1,10 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Database\Seeders\Department;
+namespace Adeis\LaravelUserManagement\Database\Seeders\Department;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
 
 class MasterDepartmentTableSeeder extends Seeder
 {

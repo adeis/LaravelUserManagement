@@ -1,11 +1,11 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Database\Seeders\Permission;
+namespace Adeis\LaravelUserManagement\Database\Seeders\Permission;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
 
 class MasterPermissionTableSeeder extends Seeder
 {

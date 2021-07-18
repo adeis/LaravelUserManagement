@@ -1,10 +1,10 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Repository\Eloquents;
+namespace Adeis\LaravelUserManagement\Repository\Eloquents;
 
 use App\Entities\User;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\BaseEloquentRepository;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\BaseEloquentRepository;
+use Adeis\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
 
 class UserRepository extends BaseEloquentRepository implements UserRepositoryInterface
 {

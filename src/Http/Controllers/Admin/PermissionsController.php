@@ -1,12 +1,12 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Http\Controllers\Admin;
+namespace Adeis\LaravelUserManagement\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\StorePermission;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\UpdatePermission;
+use Adeis\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\StorePermission;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\UpdatePermission;
 
 class PermissionsController extends Controller
 {

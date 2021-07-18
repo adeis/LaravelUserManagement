@@ -1,6 +1,6 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Entities;
+namespace Adeis\LaravelUserManagement\Entities;
 
 use Spatie\Permission\Models\Role as SpatieRole;
 

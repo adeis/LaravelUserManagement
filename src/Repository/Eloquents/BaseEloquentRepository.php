@@ -1,8 +1,8 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Repository\Eloquents;
+namespace Adeis\LaravelUserManagement\Repository\Eloquents;
 
-use Mekaeil\LaravelUserManagement\Repository\Contracts\BaseRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\BaseRepositoryInterface;
 
 class BaseEloquentRepository implements BaseRepositoryInterface
 {

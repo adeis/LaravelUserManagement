@@ -1,13 +1,13 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Http\Controllers\Admin;
+namespace Adeis\LaravelUserManagement\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\StoreRole;
-use Mekaeil\LaravelUserManagement\Http\Requests\Admin\UpdateRole;
+use Adeis\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\StoreRole;
+use Adeis\LaravelUserManagement\Http\Requests\Admin\UpdateRole;
 
 class RolesController extends Controller
 {

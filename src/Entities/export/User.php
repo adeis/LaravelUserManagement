@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Entities;
-use Mekaeil\LaravelUserManagement\Entities\User as UserManagement;
+use Adeis\LaravelUserManagement\Entities\User as UserManagement;
 
 class User extends UserManagement
 {

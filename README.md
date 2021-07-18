@@ -22,12 +22,12 @@ composer require mekaeil/laravel-user-management
 ```
 'providers' => [
     // ...
-    \Mekaeil\LaravelUserManagement\LaravelUserManagementProvider::class,
+    \Adeis\LaravelUserManagement\LaravelUserManagementProvider::class,
 ];
 ```
 3. Run this command for publish vendor:
 ```
-php artisan vendor:publish --provider="Mekaeil\LaravelUserManagement\LaravelUserManagementProvider" 
+php artisan vendor:publish --provider="Adeis\LaravelUserManagement\LaravelUserManagementProvider" 
 ```
 4. After publishing vendors, add this code to "run" method in <b>database/DatabaseSeeder.php</b>
 ```
@@ -373,7 +373,7 @@ return [
 ```
 Then run this command again: 
 ```
-php artisan vendor:publish --provider="Mekaeil\LaravelUserManagement\LaravelUserManagementProvider" 
+php artisan vendor:publish --provider="Adeis\LaravelUserManagement\LaravelUserManagementProvider" 
 ```
 
 Now follow <b> USE VUE.JS FOR YOUR PROJECT </b> section in bottom of this page.

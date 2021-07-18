@@ -1,22 +1,22 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement;
+namespace Adeis\LaravelUserManagement;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Debug\ExceptionHandler;
-use Mekaeil\LaravelUserManagement\Facade\UserManagement;
+use Adeis\LaravelUserManagement\Facade\UserManagement;
 // USER 
-use Mekaeil\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\UserRepository;
+use Adeis\LaravelUserManagement\Repository\Contracts\UserRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\UserRepository;
 // DEPARTMENT
-use Mekaeil\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\DepartmentRepository;
+use Adeis\LaravelUserManagement\Repository\Contracts\DepartmentRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\DepartmentRepository;
 // PERMISSION
-use Mekaeil\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\PermissionRepository;
+use Adeis\LaravelUserManagement\Repository\Contracts\PermissionRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\PermissionRepository;
 // ROLE
-use Mekaeil\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
-use Mekaeil\LaravelUserManagement\Repository\Eloquents\RoleRepository;
+use Adeis\LaravelUserManagement\Repository\Contracts\RoleRepositoryInterface;
+use Adeis\LaravelUserManagement\Repository\Eloquents\RoleRepository;
 
 class LaravelUserManagementProvider extends ServiceProvider
 {

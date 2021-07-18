@@ -1,6 +1,6 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Repository\Contracts;
+namespace Adeis\LaravelUserManagement\Repository\Contracts;
 
 interface RoleRepositoryInterface extends BaseRepositoryInterface
 {

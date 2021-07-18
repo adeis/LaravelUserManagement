@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\UserManagement;
 
 use Illuminate\Http\Request;
-use Mekaeil\LaravelUserManagement\Http\Controllers\Admin\PermissionsController as PermissionUserManager;
+use Adeis\LaravelUserManagement\Http\Controllers\Admin\PermissionsController as PermissionUserManager;
 
 class PermissionsController extends PermissionUserManager
 {

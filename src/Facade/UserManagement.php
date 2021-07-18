@@ -1,6 +1,6 @@
 <?php
 
-namespace Mekaeil\LaravelUserManagement\Facade;
+namespace Adeis\LaravelUserManagement\Facade;
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Facades\Log;
